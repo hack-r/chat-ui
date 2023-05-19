@@ -24,6 +24,10 @@ Of course, no authentication would have some risks, so it's assumed that if you'
 
 At the time of writing 104 people have forked the repository but they have received 0 stars on all forks and I haven't seen any working code changes - so if you'd like to work with me on this, then please, feel free! 
 
+## Fork Notes
+
+I will put some notes here. First off, it looks like we're going to me modifying `src/lib/server/auth.ts`...
+
 # Chat UI
 
 ![Chat UI repository thumbnail](https://huggingface.co/datasets/huggingface/documentation-images/raw/f038917dd40d711a72d654ab1abfc03ae9f177e6/chat-ui-repo-thumbnail.svg)
