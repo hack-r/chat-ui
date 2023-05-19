@@ -1,5 +1,6 @@
 ---
-title: chat-ui
+title: hacked-chat-ui
+original title: chat-ui
 emoji: 🔥
 colorFrom: purple
 colorTo: purple
@@ -9,6 +10,19 @@ license: apache-2.0
 base_path: /chat
 app_port: 3000
 ---
+
+# Hacked Chat UI
+
+This is a fork of Hugging Face's nice chat UI. Their UI is slick but it's coded in a way that's too specific to Hugging Face and the authentication is a little weird. 
+
+The goals of this fork are to:
+
+1. Make it easy to use with non-HF models (I will get started with OpenAI)
+2. Make it easy to disable authentication and/or have it work with arbitrary 3rd party authentication (if it's supposed to do this out of the box then that's unclear to both me and GPT-4).
+
+Of course, no authentication would have some risks, so it's assumed that if you're running it that way then abuse is prevented by other means. For instance, I intend to have it work on my LAN as well as for previously authenticated patients of one of my clients. 
+
+At the time of writing 104 people have forked the repository but they have received 0 stars on all forks and I haven't seen any working code changes - so if you'd like to work with me on this, then please, feel free! 
 
 # Chat UI
 
