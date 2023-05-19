@@ -26,7 +26,9 @@ At the time of writing 104 people have forked the repository but they have recei
 
 ## Fork Notes
 
-I will put some notes here. First off, it looks like we're going to me modifying `src/lib/server/auth.ts`...
+I've modified `src/lib/server/auth.ts` to get us passed the authentication step. 
+
+Next, I need to replace the model + chat logic.
 
 # Chat UI
 
