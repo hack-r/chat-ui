@@ -12,6 +12,7 @@ import { ObjectId } from "mongodb";
 import { base } from "$app/paths";
 import { DEFAULT_SETTINGS } from "$lib/types/Settings";
 
+// @ts-ignore
 export async function GET({ url, locals, cookies }) {
 	const { error: errorName } = z
 		.object({
